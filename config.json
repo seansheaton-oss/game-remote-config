@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "games": {
+    "mint-unblock-car-puzzle": {
+      "name": "薄荷汽车突围",
+      "privacy_policy_url": "https://zhanghaichao.github.io/mint-unblock-car-puzzle/privacy.html",
+      "ads": {
+        "mode": "test",
+        "ios": {
+          "app_id": "",
+          "rewarded_units": {"energy": "", "undo": "", "hint": ""}
+        }
+      }
+    }
+  }
+}

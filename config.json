@@ -15,6 +15,22 @@
           }
         }
       }
+    },
+    "color-dock": {
+      "name": "彩色码头：货柜谜题",
+      "privacy_policy_url": "https://seansheaton-oss.github.io/Color-Dock/privacy.html",
+      "bundle_id": "com.colordock.game",
+      "ads": {
+        "mode": "test",
+        "expires_at": 1794045716,
+        "ios": {
+          "app_id": "ca-app-pub-5210982448594117~8437320765",
+          "rewarded_units": {
+            "reward": "ca-app-pub-5210982448594117/1927752734"
+          },
+          "interstitial_unit": "ca-app-pub-5210982448594117/1109495083"
+        }
+      }
     }
   }
 }

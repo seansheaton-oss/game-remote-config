@@ -19,7 +19,7 @@
     "color-dock": {
       "name": "彩色码头：货柜谜题",
       "privacy_policy_url": "https://seansheaton-oss.github.io/game-privacy-policies/color-dock/",
-      "bundle_id": "com.colordock.game",
+      "bundle_id": "com.simple.game.colorduck",
       "ads": {
         "mode": "test",
         "expires_at": 1794045716,

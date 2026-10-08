@@ -27,6 +27,6 @@
 
 ## 隐私政策
 
-[薄荷汽车突围隐私政策](https://zhanghaichao.github.io/mint-unblock-car-puzzle/privacy.html)
+[薄荷汽车突围隐私政策](https://seansheaton-oss.github.io/game-remote-config/privacy-mint.html)
 
-上线广告和 Game Center 前，政策内容应与实际的数据处理方式一致。
+本仓库的 `privacy-mint.html` 沿用原页面样式，已更新为 iOS AdMob、Game Center 和远程配置功能说明。样式为 `mint-privacy.css`，图标为 `mint-icon.png`。GitHub Pages 从 main 分支根目录发布。

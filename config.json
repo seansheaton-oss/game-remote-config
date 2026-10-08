@@ -7,11 +7,11 @@
       "ads": {
         "mode": "test",
         "ios": {
-          "app_id": "",
+          "app_id": "ca-app-pub-5210982448594117~6801561039",
           "rewarded_units": {
-            "energy": "",
-            "undo": "",
-            "hint": ""
+            "energy": "ca-app-pub-5210982448594117/9543274440",
+            "undo": "ca-app-pub-5210982448594117/8497786085",
+            "hint": "ca-app-pub-5210982448594117/8644116584"
           }
         }
       }

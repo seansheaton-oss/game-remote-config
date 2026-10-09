@@ -4,8 +4,8 @@
     "color-sudoku-garden": {
       "name": "彩色数独花园",
       "name_en": "Color Sudoku Garden",
-      "bundle_id": "com.colorsudokugarden.game",
-      "configuration_status": "ios_ids_configured_sdk_pending",
+      "bundle_id": "com.simple.game.color.sudoku.garden",
+      "configuration_status": "ios_ids_configured",
       "privacy_policy_url": "https://seansheaton-oss.github.io/game-privacy-policies/color-sudoku-garden/",
       "ads": {
         "mode": "test",

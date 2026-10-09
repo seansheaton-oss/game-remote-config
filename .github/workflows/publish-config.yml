@@ -1,0 +1,26 @@
+name: Publish remote config
+on:
+  push:
+    branches: [main]
+    paths: [config.json, .github/workflows/publish-config.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-config
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Validate JSON
+        run: python3 -m json.tool config.json > /dev/null
+      - name: Publish versioned config attachment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="config-${GITHUB_RUN_NUMBER}-${GITHUB_RUN_ATTEMPT}"
+          gh release create "$tag" config.json --target "$(git rev-parse HEAD)" --title "Remote config ${GITHUB_RUN_NUMBER}" --notes "Public game configuration snapshot. Stable URL: https://github.com/seansheaton-oss/game-remote-config/releases/latest/download/config.json" --latest

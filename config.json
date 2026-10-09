@@ -31,6 +31,24 @@
           "interstitial_unit": "ca-app-pub-5210982448594117/1109495083"
         }
       }
+    },
+    "lift-dock-sort": {
+      "name": "Lift Dock: Anime Sort Puzzle",
+      "bundle_id": "com.simple.game.lift.dock.sort",
+      "privacy_policy_url": "https://seansheaton-oss.github.io/lift-dock-sort-lite-config/",
+      "ads": {
+        "mode": "test",
+        "ios": {
+          "app_id": "ca-app-pub-5210982448594117~6437056963",
+          "rewarded_units": {
+            "continue": "ca-app-pub-5210982448594117/4102179844",
+            "double_coin": "ca-app-pub-5210982448594117/8480408556",
+            "extra_slot": "ca-app-pub-5210982448594117/8536248871",
+            "hint": "ca-app-pub-5210982448594117/1184283178",
+            "save_hd": "ca-app-pub-5210982448594117/7773831548"
+          }
+        }
+      }
     }
   }
 }

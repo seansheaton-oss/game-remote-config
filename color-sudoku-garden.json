@@ -6,7 +6,7 @@
       "name_en": "Color Sudoku Garden",
       "bundle_id": "com.colorsudokugarden.game",
       "configuration_status": "ios_ids_configured_sdk_pending",
-      "privacy_policy_url": "",
+      "privacy_policy_url": "https://seansheaton-oss.github.io/game-privacy-policies/color-sudoku-garden/",
       "ads": {
         "mode": "test",
         "ios": {
@@ -37,7 +37,8 @@
           "extra_undo": "额外撤销一次 / Extra Undo"
         },
         "stop_fetching_after_live": true
-      }
+      },
+      "privacy_policy_effective_date": "2026-10-09"
     }
   }
 }

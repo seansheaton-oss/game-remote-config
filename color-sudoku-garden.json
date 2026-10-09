@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "games": {
+    "color-sudoku-garden": {
+      "name": "彩色数独花园",
+      "name_en": "Color Sudoku Garden",
+      "bundle_id": "com.colorsudokugarden.game",
+      "configuration_status": "ios_ids_configured_sdk_pending",
+      "privacy_policy_url": "",
+      "ads": {
+        "mode": "test",
+        "ios": {
+          "app_id": "ca-app-pub-5210982448594117~5682146986",
+          "rewarded_units": {
+            "hint": "ca-app-pub-5210982448594117/4082124850",
+            "mistake_recovery": "ca-app-pub-5210982448594117/5816686384",
+            "double_seeds": "ca-app-pub-5210982448594117/8985775201",
+            "garden_bonus": "ca-app-pub-5210982448594117/2880723824",
+            "extra_undo": "ca-app-pub-5210982448594117/1567642152"
+          }
+        },
+        "android": {
+          "app_id": "",
+          "rewarded_units": {
+            "hint": "",
+            "mistake_recovery": "",
+            "double_seeds": "",
+            "garden_bonus": "",
+            "extra_undo": ""
+          }
+        },
+        "placement_labels": {
+          "hint": "一次提示 / Hint",
+          "mistake_recovery": "错误上限后继续 / Mistake Recovery",
+          "double_seeds": "通关种子翻倍 / Double Seeds",
+          "garden_bonus": "花园额外种子 / Garden Bonus",
+          "extra_undo": "额外撤销一次 / Extra Undo"
+        },
+        "stop_fetching_after_live": true
+      }
+    }
+  }
+}

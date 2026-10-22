@@ -21,7 +21,7 @@
       "privacy_policy_url": "https://seansheaton-oss.github.io/game-privacy-policies/color-dock/",
       "bundle_id": "com.simple.game.colorduck",
       "ads": {
-        "mode": "test",
+        "mode": "live",
         "expires_at": 1794045716,
         "ios": {
           "app_id": "ca-app-pub-5210982448594117~8437320765",

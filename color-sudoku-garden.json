@@ -8,7 +8,7 @@
       "configuration_status": "ios_ids_configured",
       "privacy_policy_url": "https://seansheaton-oss.github.io/game-privacy-policies/color-sudoku-garden/",
       "ads": {
-        "mode": "test",
+        "mode": "live",
         "ios": {
           "app_id": "ca-app-pub-5210982448594117~5682146986",
           "rewarded_units": {
